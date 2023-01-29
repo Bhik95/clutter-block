@@ -1,7 +1,17 @@
 a[href*='explore'],
 a[href*='reels/videos']
 {
-  display: none;/* !important;*/
+  display: none;
   width:  0;/* !important;*/
   height: 0;/* !important;*/
+}
+
+article[role*="presentation"] div{
+  color: rgb(190, 207, 113) !important;
+}
+
+div > img[src="/images/instagram/xig/web/illo-confirm-refresh-light.png"]{
+  background-color: magenta;
+  padding: 1024px 0px;
+  display: block;
 }
